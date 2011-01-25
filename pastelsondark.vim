@@ -40,7 +40,7 @@ highlight Constant                  guifg=#A1A1FF ctermfg=73
 highlight Define                    guifg=#4D74D0 ctermfg=173
 highlight Todo                      guifg=#000000 guibg=#519F50 gui=italic
 highlight Error                     guifg=#FFC66D ctermfg=221 guibg=#990000 ctermbg=88
-highlight Function                  guifg=#FFFFFF ctermfg=221 gui=NONE cterm=NONE
+highlight Function                  guifg=#6782D3
 highlight Identifier                guifg=#C1C144 ctermfg=73 gui=NONE cterm=NONE
 highlight Include                   guifg=#A1A1FF ctermfg=173 gui=NONE cterm=NONE
 highlight PreCondit                 guifg=#4D74D0 ctermfg=173 gui=NONE cterm=NONE
@@ -115,3 +115,8 @@ highlight SpellRare                 guifg=#D75F87 ctermfg=168 guibg=NONE ctermbg
 highlight SpellCap                  guifg=#D0D0FF ctermfg=189 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 highlight MatchParen                guifg=#FFFFFF ctermfg=15 guibg=#005f5f ctermbg=23
 
+highlight link krlHereDoc String
+highlight krlFunction          guifg=#4D74D0
+highlight krlNamespace         guifg=#DE8E30
+highlight krlMethod            guifg=#6782D3
+highlight krlSymbols           guifg=#47B8D6
